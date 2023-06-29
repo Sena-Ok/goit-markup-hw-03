@@ -88,6 +88,7 @@ body {
   color: var(--cloud);
 }
 .logo-header {
+  margin-right: 76px;
 }
 .logo-footer {
   display: inline-block;
@@ -104,10 +105,10 @@ body {
   justify-content: space-between;
   border-bottom: 1px solid #e7e9fc;
 }
-.header-box-right {
+/*.header-box-right {
   display: flex;
   gap: 76px;
-}
+}*/
 .header-list {
   display: flex;
   gap: 40px;
@@ -345,6 +346,7 @@ body {
 .catalog-item-bottom {
   border: 1px solid var(--cornflower);
   padding: 32px 16px;
+  border-top: none;
 }
 .catalog-titel {
   font-weight: 500;
