@@ -104,7 +104,10 @@ body {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #e7e9fc;
-  align-items: center; 
+}
+.container-nav{
+  display: flex;
+  align-items: center;
 }
 /*.header-box-right {
   display: flex;
